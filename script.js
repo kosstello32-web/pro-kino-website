@@ -1,0 +1,1 @@
+const reveal=()=>{document.querySelectorAll('.project,.cap-grid>div,.about-grid').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<window.innerHeight*.9)el.classList.add('visible')})};window.addEventListener('scroll',reveal);reveal();
